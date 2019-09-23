@@ -7,8 +7,8 @@ Runs on UWP platform.
 
 **Screenshots**
 
-![Alt Text](/README_pix/Screenshot_1.png) ![Alt Text](/README_pix/Screenshot_2.png)
+<img src="/README_pix/Screenshot_1.png" width="300" height="200"> <img src="/README_pix/Screenshot_2.png" width="300" height="200"> 
 
-![Alt Text](/README_pix/Screenshot_3.png) ![Alt Text](/README_pix/Screenshot_4.png)
+<img src="/README_pix/Screenshot_3.png" width="300" height="200"> <img src="/README_pix/Screenshot_4.png" width="300" height="200"> 
 
-![Alt Text](/README_pix/Screenshot_5.png) ![Alt Text](/README_pix/Screenshot_6.png)
+<img src="/README_pix/Screenshot_5.png" width="300" height="200"> <img src="/README_pix/Screenshot_6.png" width="300" height="200"> 
