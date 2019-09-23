@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>18018b68-a09e-4ab1-903a-453c9edce8ef</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>fe286b46-a27b-4061-9397-63b7f69bdf0d</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Content">
+      <UniqueIdentifier>b4597252-7313-4cd6-83a1-79050992c25b</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="Common\DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClInclude Include="Content\ShaderStructures.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="MPM">
+      <UniqueIdentifier>{2ac559ca-6769-4284-b5c5-ff401780eff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MPM\Source Files">
+      <UniqueIdentifier>{f95f8475-76f8-4e4a-be8e-196981fbbe3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Content\Shaders">
+      <UniqueIdentifier>{7a9e89f1-d92f-49ed-a51e-0eda20678b6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MPM\Header Files">
+      <UniqueIdentifier>{72347ff7-03c5-4af1-9fa9-4d4bcc9cebc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp" />
+    <ClCompile Include="MPM_Snow_DXMain.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="MPM\Entity.cpp">
+      <Filter>MPM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MPM\Grid.cpp">
+      <Filter>MPM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MPM\Particle.cpp">
+      <Filter>MPM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MPM\PointCloud.cpp">
+      <Filter>MPM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MPM\Scene.cpp">
+      <Filter>MPM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MPM\Simulator.cpp">
+      <Filter>MPM\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\SceneRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\StatusTextRenderer.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="MPM_Snow_DXMain.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="MPM\CustomMath.h">
+      <Filter>MPM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MPM\Entity.h">
+      <Filter>MPM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MPM\Grid.h">
+      <Filter>MPM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MPM\Particle.h">
+      <Filter>MPM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MPM\PointCloud.h">
+      <Filter>MPM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MPM\Scene.h">
+      <Filter>MPM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MPM\SimulationParameters.h">
+      <Filter>MPM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MPM\Simulator.h">
+      <Filter>MPM\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\SceneRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\StatusTextRenderer.h">
+      <Filter>Content</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MPM-Snow-DX_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="GeometryShader.hlsl">
+      <Filter>Content\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
